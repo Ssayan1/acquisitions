@@ -26,3 +26,125 @@
 {"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 10:47:48"}
 {"level":"info","message":"::1 - - [14/Jan/2026:05:17:48 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 10:47:48"}
 {"level":"info","message":"::1 - - [14/Jan/2026:05:17:55 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 10:47:55"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:40:39"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:10:39 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:40:39"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:10:45 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:40:45"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:10:52 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:40:52"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:48"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:48 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:48"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:49"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:49"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:50 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:50"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:51 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:51 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:51 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:51"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:52 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:52 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:52 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:52"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"::1 - - [14/Jan/2026:06:13:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 11:43:53"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:26:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:09:56:23 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:26:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:09:56:23 +0000] \"GET /health HTTP/1.1\" 200 81 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:26:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:09:56:23 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:26:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:09:56:23 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:26:23"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:30:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:00:04 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:30:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:00:04 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:30:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:00:04 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:30:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:00:04 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:30:04"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:31:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:01:23 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:31:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:01:23 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:31:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:01:23 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:31:23"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:01:23 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:31:23"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:32:32"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:02:32 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:32:32"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:02:32 +0000] \"GET /health HTTP/1.1\" 200 81 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:32:32"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:02:32 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:32:32"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:02:32 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:32:32"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:34:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:04:21 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:34:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:04:21 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:34:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:04:21 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:34:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:04:21 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:34:21"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:40:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:10:21 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:40:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:10:21 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:40:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:10:21 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:40:21"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:10:21 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:40:21"}
+{"level":"info","message":"Health check endpoint accessed","method":"GET","path":"/","service":"acquisitions-api","timestamp":"2026-01-14 15:41:54"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:11:54 +0000] \"GET / HTTP/1.1\" 200 60 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 15:41:54"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:11:54 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 15:41:54"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:42:35"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:12:35 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:42:35"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:12:35 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:42:35"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:12:35 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:42:35"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:12:35 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:42:35"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:44:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:14:04 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:44:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:14:04 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:44:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:14:04 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:44:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:14:04 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:44:04"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:18:08 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462\"","service":"acquisitions-api","timestamp":"2026-01-14 15:48:08"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:18:51 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462\"","service":"acquisitions-api","timestamp":"2026-01-14 15:48:51"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:18:56 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462\"","service":"acquisitions-api","timestamp":"2026-01-14 15:48:56"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:19:18 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions-api","timestamp":"2026-01-14 15:49:18"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 15:59:40"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:29:40 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:59:40"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:29:40 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:59:40"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:29:40 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:59:40"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:29:40 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 15:59:40"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:01:31"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:31:31 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:01:31"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:31:31 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:01:31"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:31:31 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:01:31"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:31:31 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:01:31"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:03:05"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:05 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:05"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:05 +0000] \"GET /health HTTP/1.1\" 200 81 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:05"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:05 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:05"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:05 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:05"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:03:41"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:41 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:41"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:41 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:41"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:41 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:41"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:33:41 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:03:41"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:06:49"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:36:49 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-01-14 16:06:49"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:36:55 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-01-14 16:06:55"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:07:36"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:37:36 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:07:36"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:37:36 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:07:36"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:37:36 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:07:36"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:37:36 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-14 16:07:36"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api","timestamp":"2026-01-14 16:19:13"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:49:13 +0000] \"GET / HTTP/1.1\" 200 65 \"-\" \"Acquisitions-Smoke-Checker/1.0 (CI/CD; Node.js)\"","service":"acquisitions-api","timestamp":"2026-01-14 16:19:13"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:49:13 +0000] \"GET /health HTTP/1.1\" 200 82 \"-\" \"Acquisitions-Smoke-Checker/1.0 (CI/CD; Node.js)\"","service":"acquisitions-api","timestamp":"2026-01-14 16:19:13"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:49:13 +0000] \"GET /api HTTP/1.1\" 200 69 \"-\" \"Acquisitions-Smoke-Checker/1.0 (CI/CD; Node.js)\"","service":"acquisitions-api","timestamp":"2026-01-14 16:19:13"}
+{"level":"info","message":"::1 - - [14/Jan/2026:10:49:13 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Acquisitions-Smoke-Checker/1.0 (CI/CD; Node.js)\"","service":"acquisitions-api","timestamp":"2026-01-14 16:19:13"}
