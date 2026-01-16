@@ -11,12 +11,10 @@ export const authenticateToken = (req, res, next) => {
       method: req.method,
       ip: req.ip,
     });
-    return res
-      .status(401)
-      .json({
-        error: 'Unauthorized',
-        message: 'Authentication token is required',
-      });
+    return res.status(401).json({
+      error: 'Unauthorized',
+      message: 'Authentication token is required',
+    });
   }
 
   try {
