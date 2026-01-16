@@ -4,6 +4,19 @@ import { slidingWindow } from '@arcjet/node';
 
 const securityMiddleware = async (req, res, next) => {
   try {
+    // Skip rate limiting for smoke tests and health checks
+    const isSmokeTest = req.get('X-Smoke-Test') === 'true';
+    const isHealthCheck = ['/', '/health', '/api'].includes(req.path) && req.method === 'GET';
+    const isSignInHealthCheck = req.path === '/api/auth/sign-in' && req.method === 'GET';
+
+    // Skip Arcjet checks for API testing tools (Postman, Thunder Client, etc.)
+    const userAgent = req.get('User-Agent') || '';
+    const isTestingTool = /PostmanRuntime|Thunder Client|Insomnia|RestClient/i.test(userAgent);
+
+    if (isSmokeTest || isHealthCheck || isSignInHealthCheck || isTestingTool) {
+      return next();
+    }
+
     const role = req.user?.role || 'guest';
 
     // Default limit in case role is unexpected

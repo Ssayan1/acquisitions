@@ -76,7 +76,27 @@ Environment variable `DATABASE_URL` must be set (for example via `.env`) for the
 
 ### Tests
 
-There is currently no test runner or `npm test` script configured in `package.json`, so there is no standard way to run a single test yet. If a test framework is added in the future, update this section with the appropriate commands.
+A lightweight smoke test script is available to verify that the API is responding correctly on the expected ports.
+
+1. In one terminal, start the dev server:
+
+```bash
+npm run dev
+```
+
+2. In another terminal, run the smoke checks:
+
+```bash
+npm run test:smoke
+```
+
+The smoke script (`scripts/smoke-check.js`) will hit:
+- `GET /`
+- `GET /health`
+- `GET /api`
+- `GET /api/auth/sign-in`
+
+All of these should return HTTP 200 when the server is running. If any of them fail, the script will exit with a non-zero status, which is suitable for CI.
 
 ## Project architecture
 

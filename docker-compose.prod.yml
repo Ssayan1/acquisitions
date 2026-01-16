@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: acquisitions-app-prod
+    env_file:
+      - .env.production
+    environment:
+      NODE_ENV: "production"
+      # Ensure Neon Local is disabled in production
+      NEON_LOCAL: "false"
+    ports:
+      - "3000:3000"
+    # Use the default CMD from the Dockerfile: node src/index.js

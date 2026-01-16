@@ -70,7 +70,6 @@ app.get('/api/auth/sign-in', (req, res) => {
 app.use('/api/auth', authRoutes);
 
 // ===== Global Error Handler =====
-// eslint-disable-next-line no-unused-vars
 app.use((err, req, res, _next) => {
   const status = err.status && Number.isInteger(err.status) ? err.status : 500;
 

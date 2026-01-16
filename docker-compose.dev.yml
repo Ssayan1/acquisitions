@@ -1,0 +1,29 @@
+services:
+  neon-local:
+    image: neondatabase/neon_local:latest
+    container_name: neon-local
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env.development
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: acquisitions-app-dev
+    depends_on:
+      - neon-local
+    env_file:
+      - .env.development
+    environment:
+      # Tell the app to route Neon serverless traffic to Neon Local
+      NEON_LOCAL: "true"
+      NEON_LOCAL_HOST: "neon-local"
+    ports:
+      - "3000:3000"
+    command: ["npm", "run", "dev"]
+    volumes:
+      - .:/usr/src/app
+      # Keep node_modules inside the container image, not from the host
+      - /usr/src/app/node_modules
