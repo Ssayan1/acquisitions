@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
 
 app.get('/health', (req, res) => {
   res.status(200).json({
-    status: 'success',
+    status: 'OK',
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
   });
@@ -54,7 +54,7 @@ app.get('/health', (req, res) => {
 app.get('/api', (req, res) => {
   res.status(200).json({
     status: 'success',
-    message: 'Welcome to the Acquisitions API',
+    message: 'Acquisitions API is running!',
   });
 });
 
@@ -70,6 +70,15 @@ app.get('/api/auth/sign-in', (req, res) => {
 // ===== API Routes =====
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);
+
+// ===== 404 Not Found Handler =====
+app.use((req, res) => {
+  res.status(404).json({
+    error: 'Route not found',
+    path: req.path,
+    method: req.method,
+  });
+});
 
 // ===== Global Error Handler =====
 app.use((err, req, res, _next) => {
