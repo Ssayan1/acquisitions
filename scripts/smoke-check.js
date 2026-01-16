@@ -4,13 +4,13 @@ import { URL } from 'url';
 
 // 1. Configuration - Use environment variables for flexibility in CI/CD
 const BASE_URL = process.env.SMOKE_BASE_URL || 'http://localhost:3000';
-const TIMEOUT_MS = 5000; 
+const TIMEOUT_MS = 5000;
 
 const endpoints = [
   { path: '/', expectedStatus: 200 },
   { path: '/health', expectedStatus: 200 },
   { path: '/api', expectedStatus: 200 },
-  { path: '/api/auth/sign-in', expectedStatus: 200 }, 
+  { path: '/api/auth/sign-in', expectedStatus: 200 },
 ];
 
 /**
@@ -18,16 +18,16 @@ const endpoints = [
  */
 function request(endpoint) {
   const url = new URL(endpoint.path, BASE_URL);
-  
+
   const options = {
     method: 'GET',
     timeout: TIMEOUT_MS,
     headers: {
       // Identifies the tool to Arcjet/WAFs
       'User-Agent': 'Acquisitions-Smoke-Checker/1.0 (CI/CD; Node.js)',
-      'Accept': 'application/json',
-      'X-Smoke-Test': 'true'
-    }
+      Accept: 'application/json',
+      'X-Smoke-Test': 'true',
+    },
   };
 
   return new Promise((resolve, reject) => {
@@ -36,11 +36,11 @@ function request(endpoint) {
       res.on('data', (chunk) => chunks.push(chunk));
       res.on('end', () => {
         const body = Buffer.concat(chunks).toString('utf8');
-        resolve({ 
-          status: res.statusCode, 
-          body, 
+        resolve({
+          status: res.statusCode,
+          body,
           path: endpoint.path,
-          expected: endpoint.expectedStatus 
+          expected: endpoint.expectedStatus,
         });
       });
     });
@@ -67,7 +67,9 @@ async function run() {
 
       const icon = isOk ? '✅' : '❌';
       console.log(`${icon} GET ${result.path}`);
-      console.log(`   Expected: ${result.expected} | Received: ${result.status}`);
+      console.log(
+        `   Expected: ${result.expected} | Received: ${result.status}`
+      );
 
       if (!isOk) {
         failureCount++;

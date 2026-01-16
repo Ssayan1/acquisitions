@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(
   morgan('combined', {
     stream: {
-      write: message => logger.info(message.trim()),
+      write: (message) => logger.info(message.trim()),
     },
   })
 );
@@ -36,7 +36,10 @@ app.use(securityMiddleware);
 
 // ===== Health & Info Routes =====
 app.get('/', (req, res) => {
-  logger.info('Health check endpoint accessed', { path: req.path, method: req.method });
+  logger.info('Health check endpoint accessed', {
+    path: req.path,
+    method: req.method,
+  });
   res.status(200).json({
     status: 'success',
     message: 'Acquisitions API is running',
@@ -63,7 +66,8 @@ app.get('/api', (req, res) => {
 app.get('/api/auth/sign-in', (req, res) => {
   res.status(200).json({
     status: 'success',
-    message: 'Sign-in endpoint is up. Use POST /api/auth/sign-in with credentials to sign in.',
+    message:
+      'Sign-in endpoint is up. Use POST /api/auth/sign-in with credentials to sign in.',
   });
 });
 

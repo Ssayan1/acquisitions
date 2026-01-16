@@ -6,8 +6,17 @@ export const authenticateToken = (req, res, next) => {
   const token = cookies.get(req, 'token');
 
   if (!token) {
-    logger.warn('Missing auth token', { path: req.path, method: req.method, ip: req.ip });
-    return res.status(401).json({ error: 'Unauthorized', message: 'Authentication token is required' });
+    logger.warn('Missing auth token', {
+      path: req.path,
+      method: req.method,
+      ip: req.ip,
+    });
+    return res
+      .status(401)
+      .json({
+        error: 'Unauthorized',
+        message: 'Authentication token is required',
+      });
   }
 
   try {
@@ -28,14 +37,18 @@ export const authenticateToken = (req, res, next) => {
       ip: req.ip,
     });
 
-    return res.status(401).json({ error: 'Unauthorized', message: 'Invalid or expired token' });
+    return res
+      .status(401)
+      .json({ error: 'Unauthorized', message: 'Invalid or expired token' });
   }
 };
 
 export const requireRole = (allowedRoles = []) => {
   return (req, res, next) => {
     if (!req.user) {
-      return res.status(401).json({ error: 'Unauthorized', message: 'Authentication required' });
+      return res
+        .status(401)
+        .json({ error: 'Unauthorized', message: 'Authentication required' });
     }
 
     if (!allowedRoles.includes(req.user.role)) {
@@ -46,7 +59,9 @@ export const requireRole = (allowedRoles = []) => {
         ip: req.ip,
       });
 
-      return res.status(403).json({ error: 'Forbidden', message: 'Insufficient permissions' });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden', message: 'Insufficient permissions' });
     }
 
     return next();

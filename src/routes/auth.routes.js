@@ -13,7 +13,9 @@ router.get('/me', authMiddleware, (req, res) => {
   const { id, email, role } = req.user || {};
 
   if (!id || !email) {
-    return res.status(401).json({ error: 'Unauthorized', message: 'User not found in token' });
+    return res
+      .status(401)
+      .json({ error: 'Unauthorized', message: 'User not found in token' });
   }
 
   res.status(200).json({

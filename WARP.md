@@ -21,6 +21,7 @@ npm run dev
 ```
 
 The entrypoint chain is:
+
 - `src/index.js` → imports `src/server.js`
 - `src/server.js` → starts the HTTP server with Express app from `src/app.js`
 
@@ -91,6 +92,7 @@ npm run test:smoke
 ```
 
 The smoke script (`scripts/smoke-check.js`) will hit:
+
 - `GET /`
 - `GET /health`
 - `GET /api`
@@ -207,6 +209,7 @@ Several files are present as placeholders to define the intended layering:
   - Empty placeholder for validation logic (likely Zod schemas) for the auth endpoints.
 
 Future implementations should respect this separation:
+
 - **Routes** handle URL structure and HTTP method.
 - **Controllers** orchestrate request/response and call services.
 - **Services** encapsulate domain/business logic and data access.
