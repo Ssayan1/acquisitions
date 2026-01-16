@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { router as authRoutes } from './routes/auth.routes.js';
+import { router as usersRoutes } from './routes/users.routes.js';
 import securityMiddleware from '#middleware/security.middleware.js';
 
 const app = express();
@@ -68,6 +69,7 @@ app.get('/api/auth/sign-in', (req, res) => {
 
 // ===== API Routes =====
 app.use('/api/auth', authRoutes);
+app.use('/api/users', usersRoutes);
 
 // ===== Global Error Handler =====
 app.use((err, req, res, _next) => {
