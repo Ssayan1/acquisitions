@@ -59,6 +59,7 @@ Make sure you have the following software installed on your system:
 ### Installation & Setup
 
 1.  **Clone the repository:**
+
     ```bash
     git clone <your-repository-url>
     cd acquisitions
@@ -66,6 +67,7 @@ Make sure you have the following software installed on your system:
 
 2.  **Create the environment file:**
     Copy the example environment file to create your local configuration.
+
     ```bash
     cp .env.example .env
     ```
@@ -119,19 +121,19 @@ Here is a summary of the available API routes.
 
 ### Authentication (`/api/auth`)
 
-| Method | Endpoint         | Auth Required | Description                                     |
-|--------|------------------|---------------|-------------------------------------------------|
-| `POST` | `/sign-up`       | No            | Creates a new user account.                     |
-| `POST` | `/sign-in`       | No            | Authenticates a user and returns a JWT.         |
-| `POST` | `/sign-out`      | Yes           | Clears the authentication cookie.               |
-| `GET`  | `/me`            | Yes           | Retrieves the profile of the currently logged-in user. |
+| Method | Endpoint    | Auth Required | Description                                            |
+| ------ | ----------- | ------------- | ------------------------------------------------------ |
+| `POST` | `/sign-up`  | No            | Creates a new user account.                            |
+| `POST` | `/sign-in`  | No            | Authenticates a user and returns a JWT.                |
+| `POST` | `/sign-out` | Yes           | Clears the authentication cookie.                      |
+| `GET`  | `/me`       | Yes           | Retrieves the profile of the currently logged-in user. |
 
 ### Users (`/api/users`)
 
-| Method | Endpoint         | Auth Required | Description                                     |
-|--------|------------------|---------------|-------------------------------------------------|
-| `GET`  | `/`              | Yes (`admin`) | Retrieves a list of all users.                  |
-| `GET`  | `/:id`           | Yes (`admin`) | Retrieves a single user by their ID.            |
+| Method | Endpoint | Auth Required | Description                          |
+| ------ | -------- | ------------- | ------------------------------------ |
+| `GET`  | `/`      | Yes (`admin`) | Retrieves a list of all users.       |
+| `GET`  | `/:id`   | Yes (`admin`) | Retrieves a single user by their ID. |
 
 ---
 
